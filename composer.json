@@ -1,5 +1,5 @@
 {
-    "name": "mbischof/yii-framework",
+    "name": "bsmrk/yii-framework",
     "description": "yii framework",
     "keywords": ["yii", "framework"],
     "type": "project",
@@ -20,9 +20,5 @@
     
     "autoload": {
         "files": ["yii.php"]
-    },
-    
-    "config": {
-        "secure-http": false
     }
 }
