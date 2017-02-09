@@ -1,0 +1,28 @@
+{
+    "name": "mbischof/yii-framework",
+    "description": "yii framework",
+    "keywords": ["yii", "framework"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    
+    "authors": [
+        {
+            "name": "Marko Bischof",
+            "email": "marko.bischof@gmail.com",
+            "homepage": "https://github.com/mbischof",
+            "role": "Development"
+        }
+    ],
+            
+    "require": {
+        "php": ">=5.3.3"
+    },
+    
+    "autoload": {
+        "files": ["yii.php"]
+    },
+    
+    "config": {
+        "secure-http": false
+    }
+}
