@@ -11,12 +11,16 @@ return array(
         'js' => array('jquery-ui.min.js'),
         'depends' => array('jquery')
     ),
-	'yii' => array(
-		'js' => array('jquery.yii.js'),
+    'yii' => array(
+        'js' => array('jquery.yii.js'),
         'depends' => array('jquery')
-	),
-	'yiiactiveform' => array(
-		'js' => array('jquery.yiiactiveform.js'),
+    ),
+    'yiiactiveform' => array(
+        'js' => array('jquery.yiiactiveform.js'),
         'depends' => array('jquery')
-	),
+    ),
+    'bbq' => array(
+        'js' => array(YII_DEBUG ? 'jquery.ba-bbq.js' : 'jquery.ba-bbq.min.js'),
+        'depends' => array('jquery'),
+    ),
 );
